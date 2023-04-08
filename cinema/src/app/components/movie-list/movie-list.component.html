@@ -1,0 +1,13 @@
+<div class="movie-list">
+    <div class="search-container">
+        <input type="text" [(ngModel)]="searchQuery" (input)="filterMovies()" placeholder="Search movies...">
+    </div>
+    <div class="movie-item" *ngFor="let movie of filteredMovies">
+        <a [routerLink]="['/movies', movie.id]">
+            <img [src]="'assets/images/movie-covers/' + movie?.img" [alt]="movie?.name" class="movie-item__image" />
+        <h3 class="movie-item__title">{{ movie.name }}</h3>
+          </a>
+        
+    </div>
+</div>
+  

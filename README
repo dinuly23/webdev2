@@ -1,0 +1,25 @@
+Movie App "CINEMA"
+This is a simple movie app built with Angular 15 that displays a list of movies with their details. The app has a home page that displays all the movies, a search feature to filter the list of movies, and a details page that displays more information about a selected movie.
+
+Installation
+Clone the repository: git clone https://github.com/dinuly23/webdev2.git
+Navigate to the project directory: cd movie-app
+Install the dependencies: npm install
+Usage
+Start the server: ng serve
+Navigate to http://localhost:4200/
+Features
+Home Page
+The home page displays a list of movies with their images, names, and descriptions. Users can click on a movie to view more details.
+
+Search
+Users can search for a specific movie by typing in the search bar at the top of the home page. The list of movies will dynamically update to show only the movies that match the search query.
+
+Movie Details Page
+The movie details page displays more information about a selected movie, including the movie's name, description, genres, rating, length, and an image. In addition, the details page shows other movies that have the same genres as the selected movie.
+
+Credits
+This app was built with Angular 12 by [Your Name]. The list of movies was obtained from [source of movie data].
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
